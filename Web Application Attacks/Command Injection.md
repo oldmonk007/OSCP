@@ -1,0 +1,1 @@
+- in web application that accept commands, another command can be appended by semi-colon or ampersand
