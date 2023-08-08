@@ -1,3 +1,4 @@
+env
 ### Cron jobs
 
 grep "CRON" /var/log/syslog
