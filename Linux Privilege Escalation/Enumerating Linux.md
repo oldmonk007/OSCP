@@ -47,6 +47,7 @@ dpkg -l
 **Files with weak permissions**
 
 find / -writable -type d 2>/dev/null
+find / -writable -type f 2>/dev/null
 
 **Mounted Drives**
 cat /etc/fstab

