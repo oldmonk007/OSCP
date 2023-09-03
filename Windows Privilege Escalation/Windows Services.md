@@ -33,7 +33,7 @@ search order for dll
 5. The current directory.
 6. The directories that are listed in the PATH environment variable.
 ```
-Get-Process chrome | select -ExpandProperty modules | group -Property FileName | select name
+Get-Process yourphone | select -ExpandProperty modules | group -Property FileName | select name
 
 Dllmain four cases
 

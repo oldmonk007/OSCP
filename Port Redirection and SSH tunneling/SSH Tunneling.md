@@ -17,7 +17,7 @@ use with proxychains
 ### Remote Port Forwarding
 
 
-ssh -N -R 127.0.0.1:4444:10.4.188.215:4444 kali@192.168.45.181
+ssh -N -R 127.0.0.1:4443:10.4.203.215:22 kali@192.168.45.203
 
 ### Remote Dynamic Port Forwarding
 

@@ -13,6 +13,9 @@ userid starts from 1000
 
 hostname
 
+sudo permissions 
+sudo -l
+
 **OS release and version**
 
 cat /etc/issue

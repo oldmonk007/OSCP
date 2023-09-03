@@ -1,10 +1,11 @@
 ### 8,9
-- [ ] helpdesk
+- [x] helpdesk
+- Direct exploit for manageengine in metasploit
 - [ ] hetemit
 - [ ] apex
-- [ ] xposedapi
-- [ ] reconstruction
-- [ ] slort
+- [x] xposedapi
+- [x] reconstruction
+- [x] slort
 - [ ] payday
 - [ ] uc404
 
