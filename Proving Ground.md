@@ -6,8 +6,8 @@
 - [x] xposedapi
 - [x] reconstruction
 - [x] slort
-- [ ] payday
-- [ ] uc404
+- [x] payday
+- [x] uc404
 
 ### 10,11
 - [ ] butch

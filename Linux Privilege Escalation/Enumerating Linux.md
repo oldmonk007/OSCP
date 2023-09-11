@@ -51,6 +51,8 @@ dpkg -l
 
 find / -writable -type d 2>/dev/null
 find / -writable -type f 2>/dev/null
+find / -writable -type f 2>/dev/null -not -path "/var/www/*" -not -path "/proc/*"
+
 
 **Mounted Drives**
 cat /etc/fstab

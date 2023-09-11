@@ -99,7 +99,7 @@ Convert-SidToName S-1-5-21-1987370270-658905905-1781884369-1104
 
 Get-ObjectAcl -Identity "Management Department" | ? {$_.ActiveDirectoryRights -eq "GenericAll"} | select SecurityIdentifier,ActiveDirectoryRights
 
-Get-ObjectAcl | ? {$_.ActiveDirectoryRights -eq "GenericAll"} | ? {$_.SecurityIdentifier -eq "S-1-5-21-1987370270-658905905-1781884369-1104"}
+Get-ObjectAcl | ? {$_.ActiveDirectoryRights -eq "GenericAll"} | ? {$_.SecurityIdentifier -eq "S-1-5-21-976142013-3766213998-138799841-1109"}
 ### Domain Shares
 
 Find-DomainShare
@@ -113,3 +113,11 @@ BloodHound
 
 Import-Module .\SharpHound.ps1
 Invoke-BloodHound -CollectionMethod All -OutputDirectory C:\Users\stephanie\Desktop\ -OutputPrefix "corp audit"
+
+neo4j start
+
+```
+match (a) -[r] -> () delete a, r
+
+match (a) delete a
+```
