@@ -99,7 +99,7 @@ Convert-SidToName S-1-5-21-1987370270-658905905-1781884369-1104
 
 Get-ObjectAcl -Identity "Management Department" | ? {$_.ActiveDirectoryRights -eq "GenericAll"} | select SecurityIdentifier,ActiveDirectoryRights
 
-Get-ObjectAcl | ? {$_.ActiveDirectoryRights -eq "GenericAll"} | ? {$_.SecurityIdentifier -eq "S-1-5-21-976142013-3766213998-138799841-1109"}
+Get-ObjectAcl | ? {$_.ActiveDirectoryRights -eq "GenericAll"} | ? {$_.SecurityIdentifier -eq "S-1-5-21-3972710054-930304531-4277621697-1124"}
 ### Domain Shares
 
 Find-DomainShare

