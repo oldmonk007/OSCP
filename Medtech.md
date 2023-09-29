@@ -31,7 +31,7 @@ sudo ip link set ligolo up
 ./proxy -selfcert -laddr 0.0.0.0:9001
 ./agent -connect 192.168.45.193:9090 -ignore-cert
 
-sudo ip route add 172.16.123.0/23 dev ligolo
+sudo ip route add 10.10.136.0/24 dev ligolo
 
 ### 172.16.243.11
 
