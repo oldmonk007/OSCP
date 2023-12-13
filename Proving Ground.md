@@ -40,3 +40,20 @@
 - [ ] internal
 - [ ] wombo
 
+### tre
+
+found poprt 80 and 8082
+gobuster 80 with common gace nothing except cms
+gobuster with big gave mantis and adminer
+gobuster on mantis gave config in which a.txt was present and mysql password was present
+logged into mysql with this password and in user table got password of tre
+ssh with tre got shell
+no suid or sudo -l
+one file writeable /usr/bin/check-system
+wrote chmod +s /usr/bin/bash
+restarted sudo shutdown -r now
+/usr/bin/bash -p gave root shell
+
+
+
+
