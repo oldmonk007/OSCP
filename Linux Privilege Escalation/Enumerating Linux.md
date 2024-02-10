@@ -42,6 +42,7 @@ cat /etc/iptables/rules.v4
 
 ls -lah /etc/cron*
 crontab -l
+cat /etc/crontab
 
 **Installed Applications**
 

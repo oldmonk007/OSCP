@@ -95,7 +95,8 @@ PE via "C:\Program Files\MilleGPG5\GPGService.exe"
 
 .156 Frankfurt:
 
-Initial via UDP port 161 (snmpwalk -c public -v1 192.168.189.156 NET-SNMP-EXTEND-MIB::nsExtendObjects)
+Initial via UDP port 161 (dor
+snmpwalk -c public -v1 192.168.189.156 NET-SNMP-EXTEND-MIB::nsExtendObjects)
 - jack:3PUKsX98BMupBiCf
 - check vesta login on port 8083 (Jack is username)
 - add cron job there to gain RCE
