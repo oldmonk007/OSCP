@@ -12,6 +12,8 @@ hydra -C /usr/share/seclists/Passwords/Default-Credentials/tomcat-betterdefaultp
 
 gobuster tomcat - unsuccessful
 
+gobuster dir -u http://192.168.102.101:8080 -w /usr/share/seclists/Discovery/Web-Content/ApacheTomcat.fuzz.txt 
+
 
 
 192.168.102.100 - entry point
