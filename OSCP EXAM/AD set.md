@@ -1,3 +1,7 @@
+
+All machines on same network
+
+
 192.168.102.100 - entry point
 	
 	PORT      STATE SERVICE       REASON          VERSION
