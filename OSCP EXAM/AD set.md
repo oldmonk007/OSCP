@@ -98,7 +98,7 @@ started listener on nc -nlvp 8080
 got reverseconnection
 got local flag
 whoami /priv
-uploaded GodPotato
+uploaded GodPotato and nc
 
 
 
