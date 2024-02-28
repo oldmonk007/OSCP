@@ -8,7 +8,9 @@ no permission to upload
 gobuster common
 gobuster big
 tried ssh with ftp ftp
-g
+got local flag
+uploaded linpeas
+
 
 
 
