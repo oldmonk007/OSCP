@@ -39,7 +39,7 @@ got local flag
 privesc
 
 checked privileges   whoami /all
-ImpersonatePrivilege Enabled, pri
+SeImpersonatePrivilege Enabled, printspoofer vulnerability should work
 
 
 
