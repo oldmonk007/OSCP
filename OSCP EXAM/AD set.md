@@ -10,6 +10,7 @@
 	22
 	80
 		blank home page
+		Apache 2.4.52 ubuntu
 		
 192.168.102.111
 192.168.102.112
