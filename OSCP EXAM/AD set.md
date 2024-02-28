@@ -22,7 +22,8 @@ ldap search
 
 ldapsearch -x -b "dc=oscp,dc=exam" "*" -H ldap://192.168.102.100  | awk '/dn: / {print $2}'
 
-tried with lisa lisa
+tried with lisa lisa on tomcat , got the access
+
 
 
 192.168.102.100 - entry point
