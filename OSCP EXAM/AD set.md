@@ -70,7 +70,11 @@ tried on 102 with crackmapexec mssql
 
 crackmapexec mssql 192.168.102.102 -u svc_sql -p "Hard2Work4Style8"
 
-valud
+valid user
+
+used impacket-mssqlclient
+
+
 
 
 
