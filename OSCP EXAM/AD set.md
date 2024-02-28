@@ -3,6 +3,8 @@
 		uname - ftp
 		pass - ftp
 		but nothing after, hangs, no output
+			got it, but ftp is empty, probably for file upload and accessing through web
+			
 		
 	22
 	80
