@@ -61,6 +61,8 @@ netsh advfirewall firewall add rule name="Open Remote Desktop" protocol=TCP dir=
 
 using remmina got RDP access
 
+found stickynotes in administrator Documents
+Opened with Stick notes application
 
 
 
