@@ -1,3 +1,8 @@
+nmap scan 
+nmap -p- -sV -sC -Pn 192.168.102.110 --open
+port 21 ftp enab
+
+	
 	21
 		uname - ftp
 		pass - ftp
