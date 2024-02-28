@@ -18,6 +18,12 @@ Query DC for usernames
 
 nmap -p 389 --script ldap-search --script-args 'ldap.username="cn=administrator,cn=users,dc=exam,dc=exam",ldap.qfilter=users,ldap.attrib=sAMAccountName' -Pn 192.168.102.100
 
+ldap search
+
+ldapsearch -x -b "dc=oscp,dc=exam" "*" -H ldap://192.168.102.100  | awk '/dn: / {print $2}'
+
+tried with lisa lisa
+
 
 192.168.102.100 - entry point
 	
