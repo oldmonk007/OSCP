@@ -1,4 +1,4 @@
-192.168.102.110
+192.168.102.100 - entry point
 	20  ftp-data
 	21
 		uname - ftp
@@ -15,5 +15,5 @@
 		Apache 2.4.52 ubuntugobuster with common, big and medium no results
 		
 		
-192.168.102.111
-192.168.102.112
+192.168.102.101
+192.168.102.102
