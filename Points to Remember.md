@@ -153,3 +153,5 @@ sudo psql --host=127.0.0.1 -U postgres
 \! /bin/sh
 
 ntlm relay
+
+https://medium.com/@ushah.789012/cleared-oscp-april-2023-5980c5e2c3d8
