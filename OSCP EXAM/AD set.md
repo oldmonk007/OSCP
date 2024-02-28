@@ -10,7 +10,8 @@
 	22
 	80
 		blank home page
-		Apache 2.4.52 ubuntu
+		Apache 2.4.52 ubuntugobuster with common, big and medium no results
+		
 		
 192.168.102.111
 192.168.102.112
