@@ -145,4 +145,10 @@ PORT      STATE SERVICE       REASON          VERSION
 
 got password of lisa  -- domain user
 got all users with get ADuser
-sprayed crackmapexec smb for all
+sprayed crackmapexec smb for all users
+sprayed getspn and getnpuser for all
+
+No success
+
+MSSQL server??
+
