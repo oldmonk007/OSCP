@@ -2,6 +2,11 @@
 All machines on same network
 Nmap scan
 
+nmap -p- -sV -sC -Pn 192.168.102.100 --open 
+nmap -p- -sV -sC -Pn 192.168.102.101 --open 
+nmap -p- -sV -sC -Pn 192.168.102.102 --open 
+
+port 8080 open apache tomcat 8.5.91, tried with default usernames
 
 
 
