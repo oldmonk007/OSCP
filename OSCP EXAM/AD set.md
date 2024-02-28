@@ -64,6 +64,10 @@ using remmina got RDP access
 found stickynotes in administrator Documents
 Opened with Stick notes application
 
+found password of svc_sql
+
+
+
 
 
 
