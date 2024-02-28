@@ -12,7 +12,8 @@ got local flag
 sudo -l for ftp nothing
 uploaded linpeas
 linpeas indicated passwd and backup file in /mnt/backup/etc
-copied hashes of root lisa and ftp f
+copied hashes of root lisa and ftp to kali in passwd.txt and shadow.txt
+
 
 
 
