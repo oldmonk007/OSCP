@@ -13,7 +13,7 @@
 		blank home page
 		Apache 2.4.52 ubuntugobuster with common, big and medium no results
 	Privesc
-		3303 on localhost
+		3306 on localhost
 			APP_KEY=base64:yN/2x7bTc/KG/T0BZvL8s1W4N4+Y87PXRvJm8iPWzE=
 			APP_DEBUG=true
 			APP_URL=http://localhost
