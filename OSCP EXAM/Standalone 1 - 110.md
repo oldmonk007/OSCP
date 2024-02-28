@@ -2,7 +2,8 @@ nmap scan
 nmap -p- -sV -sC -Pn 192.168.102.110 --open
 port 21 ftp enabled
 tried with anonymous not allowed
-tried with ftp ftp 
+tried with ftp ftp, successful
+
 
 	
 	21
