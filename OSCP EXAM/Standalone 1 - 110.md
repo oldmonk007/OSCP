@@ -27,6 +27,8 @@
 		users clay, lisa
 		/home/lisa/.bash_history
 		/home/lisa/.mysql_history
+		/mnt/backup/etc/adduser.conf
+
 
 
 
