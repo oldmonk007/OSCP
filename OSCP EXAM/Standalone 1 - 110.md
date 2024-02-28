@@ -22,7 +22,7 @@
 			DB_PORT=3306
 			DB_DATABASE=creds
 			DB_USERNAME=root
-DB_PASSWORD=Strong.DB?Password
+			DB_PASSWORD=Strong.DB?Password
 
 		users clay, lisa
 
