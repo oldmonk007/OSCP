@@ -1,4 +1,5 @@
 192.168.102.110
+	20  ftp-data
 	21
 		uname - ftp
 		pass - ftp
@@ -8,6 +9,7 @@
 			
 		
 	22
+	53 domain
 	80
 		blank home page
 		Apache 2.4.52 ubuntugobuster with common, big and medium no results
