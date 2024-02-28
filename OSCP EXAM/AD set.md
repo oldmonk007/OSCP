@@ -143,3 +143,6 @@ PORT      STATE SERVICE       REASON          VERSION
 49665/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
 49666/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
 
+got password of lisa  -- domain user
+got all users with get ADuser
+sprayed crackmapexec smb for all
