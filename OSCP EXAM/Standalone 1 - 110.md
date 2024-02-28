@@ -12,6 +12,7 @@ got local flag
 sudo -l for ftp nothing
 uploaded linpeas
 linpeas indicated passwd and backup file in /mnt/backup/etc
+copied hashes of root lisa and ftp f
 
 
 
