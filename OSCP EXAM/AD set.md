@@ -41,6 +41,8 @@ privesc
 checked privileges   whoami /all
 SeImpersonatePrivilege Enabled, printspoofer vulnerability should work
 
+Used GodPotato [https://github.com/BeichenDream/GodPotato](https://github.com/BeichenDream/GodPotato "https://github.com/BeichenDream/GodPotato")
+
 
 
 
