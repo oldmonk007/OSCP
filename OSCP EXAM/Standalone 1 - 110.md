@@ -25,6 +25,9 @@
 			DB_PASSWORD=Strong.DB?Password
 
 		users clay, lisa
+		/home/lisa/.bash_history
+		/home/lisa/.mysql_history
+
 
 
 
