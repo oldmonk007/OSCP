@@ -14,4 +14,4 @@
 49665/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
 49666/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
 
-gobuster on 8080 with common
+gobuster on 8080 with common and big no results
