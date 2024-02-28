@@ -5,6 +5,9 @@ tried with anonymous not allowed
 tried with ftp ftp, successful
 empty ftp
 no permission to upload
+gobuster common
+gobuster big
+
 
 
 
