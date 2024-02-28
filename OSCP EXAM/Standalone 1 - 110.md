@@ -14,6 +14,9 @@ uploaded linpeas
 linpeas indicated passwd and backup file in /mnt/backup/etc
 copied hashes of root lisa and ftp to kali in passwd.txt and shadow.txt
 unshadow passwd.txt shadow.txt > unshadowed.txt 
+used john with rockyou.txt for cracking hashes
+
+
 
 
 
