@@ -103,4 +103,6 @@ got username
 passwords in pdf
  bruteforce ssh
  got sarah for ssh
- 
+ sudo -l 
+ mawk
+ gtfobins got root
