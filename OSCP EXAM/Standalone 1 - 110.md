@@ -13,7 +13,8 @@
 		blank home page
 		Apache 2.4.52 ubuntugobuster with common, big and medium no results
 	Privesc
-	3303 on localhost
+		3303 on localhost
+		users clay, lisa
 
 
 
