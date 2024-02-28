@@ -10,6 +10,8 @@ gobuster big
 tried ssh with ftp ftp
 got local flag
 uploaded linpeas
+linpeas indicated passwd and backup file in /mnt/backup/etc
+
 
 
 
