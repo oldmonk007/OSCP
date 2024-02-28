@@ -14,6 +14,9 @@ gobuster tomcat - unsuccessful
 
 gobuster dir -u http://192.168.102.101:8080 -w /usr/share/seclists/Discovery/Web-Content/ApacheTomcat.fuzz.txt 
 
+Query DC for usernames
+
+nmap -p 389 --script ldap-search --script-args 'ldap.username="cn=administrator,cn=users,dc=exam,dc=exam",ldap.qfilter=users,ldap.attrib=sAMAccountName' -Pn 192.168.102.100
 
 
 192.168.102.100 - entry point
