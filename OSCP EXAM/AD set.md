@@ -79,6 +79,7 @@ reconfigure;
 sp_configure;
 EXEC sp_configure 'xp_cmdshell', 1
 reconfigure;
+xp_cmdshell "whoami"
 
 
 
