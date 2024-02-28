@@ -9,6 +9,7 @@ gobuster common
 gobuster big
 tried ssh with ftp ftp
 got local flag
+sudo -l for ftp nothing
 uploaded linpeas
 linpeas indicated passwd and backup file in /mnt/backup/etc
 
