@@ -1,5 +1,8 @@
 
 All machines on same network
+Nmap scan
+
+
 
 
 192.168.102.100 - entry point
