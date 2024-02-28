@@ -25,7 +25,16 @@
 49701/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
 53027/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC20  ftp-data
 	
-		
+		389/tcp open  ldap
+| ldap-search: 
+|   Context: DC=oscp,DC=exam; QFilter: users; Attributes: sAMAccountName
+|     dn: CN=Guest,CN=Users,DC=oscp,DC=exam
+|         sAMAccountName: Guest
+|     dn: CN=lisa,CN=Users,DC=oscp,DC=exam
+|         sAMAccountName: lisa
+|     dn: CN=svc_sql,CN=Users,DC=oscp,DC=exam
+|_        sAMAccountName: svc_sql
+
 		
 192.168.102.101
 
