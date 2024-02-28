@@ -1,4 +1,4 @@
-21
+	21
 		uname - ftp
 		pass - ftp
 		but nothing after, hangs, no output
