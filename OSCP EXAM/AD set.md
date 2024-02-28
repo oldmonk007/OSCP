@@ -4,6 +4,7 @@
 		pass - ftp
 		but nothing after, hangs, no output
 			got it, but ftp is empty, probably for file upload and accessing through web or maybe there is another ftp user
+			permission denied for uploadi
 			
 		
 	22
