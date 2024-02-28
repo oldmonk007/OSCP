@@ -16,7 +16,7 @@ copied hashes of root lisa and ftp to kali in passwd.txt and shadow.txt
 unshadow passwd.txt shadow.txt > unshadowed.txt 
 used john with rockyou.txt for cracking hashes
 got password of lisa
-ssh with lisa crede
+ssh with lisa credentials
 
 
 
