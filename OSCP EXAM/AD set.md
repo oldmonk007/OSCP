@@ -35,6 +35,35 @@
 |     dn: CN=svc_sql,CN=Users,DC=oscp,DC=exam
 |_        sAMAccountName: svc_sql
 
+DC=oscp,DC=exam
+CN=Administrator,CN=Users,DC=oscp,DC=exam
+CN=Guest,CN=Users,DC=oscp,DC=exam
+CN=krbtgt,CN=Users,DC=oscp,DC=exam
+CN=Domain
+CN=Domain
+CN=Schema
+CN=Enterprise
+CN=Cert
+CN=Domain
+CN=Domain
+CN=Domain
+CN=Group
+CN=RAS
+CN=Allowed
+CN=Denied
+CN=Read-only
+CN=Enterprise
+CN=Cloneable
+CN=Protected
+CN=Key
+CN=Enterprise
+CN=DnsAdmins,CN=Users,DC=oscp,DC=exam
+CN=DnsUpdateProxy,CN=Users,DC=oscp,DC=exam
+CN=lisa,CN=Users,DC=oscp,DC=exam
+CN=betty,CN=Users,DC=oscp,DC=exam
+CN=svc_sql,CN=Users,DC=oscp,DC=exam
+
+
 		
 192.168.102.101
 
