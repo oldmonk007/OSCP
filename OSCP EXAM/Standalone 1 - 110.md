@@ -7,6 +7,7 @@
 			
 		
 	22
+		ssh with ftp/ftp successfull
 	53 domain
 	80
 		blank home page
