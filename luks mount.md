@@ -6,3 +6,6 @@ sudo mount /dev/mapper/my_encrypted_volume /media/my_device
 sudo vgdisplay
 sudo vgrename boss-vg sito-vg
 modprobe dm-mod  
+sudo vgchange -ay
+sudo lvscan
+sudo mount /dev/sito-vg/root  /media/my_device
