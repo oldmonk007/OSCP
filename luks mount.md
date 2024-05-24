@@ -9,3 +9,4 @@ modprobe dm-mod
 sudo vgchange -ay
 sudo lvscan
 sudo mount /dev/sito-vg/root  /media/my_device
+![[cve-2021-4034]]
